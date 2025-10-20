@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./new code.html" target="blank" name="biodata" method="get">
+        <fieldset>
+            <legend>biodata</legend>
+            <label for="name" >Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="attempt">Attempt:</label>
+            <input type="number" id="attempt" name="attempt" min="1" max="10" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+            <label for="tel">Phone :</label>
+            <input type="tel" id="tel" name="tel" placeholder="enter your phone no" required><br><br>
+            <label for="add">Address:</label><br>
+            <textarea name="text" id="add" name="ADDRESS" rows="6" cols="50"></textarea><br><br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female:</label>
+            <br><br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="check">Vehicles u have:</label>
+            <input type="checkbox" id="check" name="vehicle1" value="Bike">
+            <label for="bike">Bike:</label>
+            <input type="checkbox" id="check" name="vehicle2" value="Car">
+            <label for="car">Car:</label>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="pass" name="pass" placeholder="enter your password" required><br><br>
+            <label for ="select">Select your programming language:</label>
+            <select name="select"  id="select">
+                <option>select your option</option>
+                <optgroup label="programming language">
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="java">Java</option>
+                </optgroup>
+                <optgroup label="fronthead technologies">
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="python">Python</option>
+                <option value="javascript">JavaScript</option>
+                </optgroup>
+            </select>
+                <br/><br/>
+                <label for="file">Upload your file:</label>
+                <input type="file" id="file" name="file" required>
+                <br><br>
+                <label for="appoint">Appointment :</label>
+                <input type="time" id="appoint" name="appoint" required>
+                <br><br>
+                <input type="submit" value="LOCK">
+                <input type="RESET">
+
+        </fieldset>
+    </form>
+
+        
+
+        
+        
+</body>
+</html>
