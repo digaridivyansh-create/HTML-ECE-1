@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang ="en">
+<head>
+     <meta charset = "UTF-8">
+     <meta name = "viewport" content = "width=device-width , initial-scale=1.0">
+     <title>Student Registration Form<title>
+</head>
+<body>
+    <center>
+           <h1>Student registration form</h1>
+    </center>
+    <form action="new/code.html" target= "blank" name= "student registration form" method="get">
+        <fieldset>
+          <legend>Student Registration Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+          <label for="dob">DOB:</label>
+          <input type="date" id="dob" name ="dob" required><br><br>
+          <label for= "age">AGE:</label>
+          <input type="number" id ="age" name="age" min="1" max="100" required><br><br>
+          <label for ="select">Select your Course":</label>
+          <select name ="select" id="select">
+             <option>select your option</option>
+             <optgroup label ="courses">
+             <option value="b.tech">B.Tech:</option>
+             <option value="m.tech">M.Tech:</option>
+             <option value ="b.sc">B.SC:</option>
+             <option value = "b.ca">B.CA:</option>
+             </optgroup>
+             </select>
+           <br><br/>
+           <label for="gender">Gender:</label>
+           <label for="male">MALE:</label>
+           <input type="radio" id="male" name= "gender" value="male" required>
+           <label for="female">female:</label>
+           <input type="radio" id="female" name="gender" value="female" required><br><br>
+           <input type="submit" value ="register">
+           <input type="submit" value="clear">
+       </fieldset>
+       </form>
+       </body>
+       </html>
+     
+      
+
